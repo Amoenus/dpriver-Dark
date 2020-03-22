@@ -1,0 +1,90 @@
+@-moz-document url("http://www.dpriver.com/pp/sqlformat.htm") {
+  @font-face {
+      font-family: 'Fira Code';
+      src: url('eot/FiraCode-Light.eot');
+      src: url('eot/FiraCode-Light.eot') format('embedded-opentype'), url('woff2/FiraCode-Light.woff2') format('woff2'), url('woff/FiraCode-Light.woff') format('woff'), url('ttf/FiraCode-Light.ttf') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Fira Code';
+      src: url('eot/FiraCode-Regular.eot');
+      src: url('eot/FiraCode-Regular.eot') format('embedded-opentype'), url('woff2/FiraCode-Regular.woff2') format('woff2'), url('woff/FiraCode-Regular.woff') format('woff'), url('ttf/FiraCode-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Fira Code';
+      src: url('eot/FiraCode-Medium.eot');
+      src: url('eot/FiraCode-Medium.eot') format('embedded-opentype'), url('woff2/FiraCode-Medium.woff2') format('woff2'), url('woff/FiraCode-Medium.woff') format('woff'), url('ttf/FiraCode-Medium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Fira Code';
+      src: url('eot/FiraCode-Bold.eot');
+      src: url('eot/FiraCode-Bold.eot') format('embedded-opentype'), url('woff2/FiraCode-Bold.woff2') format('woff2'), url('woff/FiraCode-Bold.woff') format('woff'), url('ttf/FiraCode-Bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+  }
+
+  body {
+      background: #201F1E;
+      font-family: "Fira Code", Consolas, Menlo, monospace, arial, sans-serif;
+  }
+
+  textarea {
+      color: white;
+      background-color: #201F1E;
+      border-color: #93A1A1;
+  }
+
+  .site-name a {
+      color: #93A1A1;
+  }
+
+  .nav1 li a {
+      display: block;
+      float: left;
+      margin: 0px;
+      padding: 2px 5px 2px 5px;
+      border-right: solid 1px rgb(115, 162, 182);
+      color: rgb(115, 162, 182);
+      background-color: #201F1E;
+      text-decoration: none;
+      font-size: 10px;
+  }
+
+  .nav1 ul {
+      float: right;
+      margin: 0px;
+      padding: 0px 20px 0px 0px;
+      border-left: solid 1px rgb(115, 162, 182);
+      background-color: #201F1E;
+      font-weight: bold;
+  }
+
+  input {
+      font-family: "Fira Code", Consolas, Menlo, monospace, "Lucida Grande", Tahoma, Arial, sans-serif;
+      background-color: #201F1E;
+      color: white;
+  }
+
+  button {
+      font-family: "Fira Code", Consolas, Menlo, monospace, "Lucida Grande", Tahoma, Arial, sans-serif;
+      background-color: #201F1E;
+      color: white;
+  }
+
+  div#formatoptions {
+      color: white;
+  }
+
+  img[src="sqlpponline.png"] {
+      visibility: collapse;
+  }
+
+  img[src="/images/banners/sqlpp_ssms_780_90.png"] {
+      visibility: collapse;
+  }
+}
